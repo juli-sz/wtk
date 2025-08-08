@@ -5,9 +5,9 @@ name: ci-release
 
 on:
   push:
-    branches: [ "release", "master", "dev" ]
+    branches: [ "release", "master", "dev", "main" ]
   pull_request:
-    branches: ["release", "master"]
+    branches: ["release", "master", "main"]
 
 jobs:
   # 1. ejecuta la build
